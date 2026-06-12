@@ -1,7 +1,6 @@
 #Ignore Everything By Default
 *
 
-*:Zone.Identifier
 
 #Allow Certain Folders/Files To Be Tracked
 !nvim/
@@ -12,3 +11,5 @@
 
 #Keep .gitignore Tracked
 !.gitignore
+
+**/*Zone.Identifier*
