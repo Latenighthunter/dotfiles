@@ -1,0 +1,14 @@
+#Ignore Everything By Default
+*
+
+*:Zone.Identifier
+
+#Allow Certain Folders/Files To Be Tracked
+!nvim/
+!nvim/**
+!fish/
+!fish/config.fish
+!starship.toml
+
+#Keep .gitignore Tracked
+!.gitignore
